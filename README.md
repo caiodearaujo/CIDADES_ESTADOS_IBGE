@@ -1,6 +1,6 @@
-# CIDADES_ESTADOS_IBGE
-SQL com Estados, Cidades, Distritos e Sub-Distritos com seus códigos IBGE
+# Estados, Cidades, Distritos e SubDistritos IBGE 2020
 
+SQL com Estados, Cidades, Distritos e Sub-Distritos com seus códigos IBGE
 Após executar o sql em seu banco você pode obter os dados da seguinte forma:
 
 ### Consultar cidade por UF
