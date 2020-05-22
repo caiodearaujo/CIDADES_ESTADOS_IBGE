@@ -1,9 +1,10 @@
 # Estados, Cidades, Distritos e SubDistritos IBGE 2020
 
 SQL com Estados, Cidades, Distritos e Sub-Distritos com seus códigos IBGE
+
 Após executar o sql em seu banco você pode obter os dados da seguinte forma:
 
-### Consultar cidade por UF
+## Consultar cidade por UF
 
 ```sql
 SELECT * FROM cidades_estados WHERE uf_sigla LIKE 'PR';
@@ -15,7 +16,7 @@ O seu retorno será uma view desta forma:
 | :--- | :--- | :--- | :--- | :--- |
 | 4115200 | Maringá | 41 | Paraná | PR |
 
-### Consultar distrito por cidade:
+## Consultar distrito por cidade:
 
 ```sql
 SELECT * FROM distritos_cidades_estados WHERE cidade_nome LIKE 'Toledo';
@@ -37,7 +38,7 @@ O seu retorno será uma view desta forma:
 | 412770033 | Vila Ipiranga | 4127700 | Toledo | 41 | Paraná | PR |
 | 412770035 | Vila Nova | 4127700 | Toledo | 41 | Paraná | PR |
 
-### Consultar subdistrito por cidade:
+## Consultar subdistrito por cidade:
 
 ```sql
 SELECT * FROM sub_distritos_cidades_estados WHERE cidade_nome LIKE 'Curitiba';
